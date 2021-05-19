@@ -1,0 +1,48 @@
+.root{
+--second-font: 'PT Serif', serif;
+--main-font: 'Roboto', sans-serif;  
+}
+.list{
+    list-style: none;
+}
+.body{
+    font-family: var(--main-font)
+}
+
+h2,
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.header-title{
+font-family:var(--second-font);
+font-weight: 700;
+font-size: 44px;
+line-height: 1.29;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+
+.picture-item-sea{
+background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), 
+url(Untitled-1.jpg);
+}
+
+.picture-item-family{
+background: url(73.jpg);
+border: 10px solid #FFFFFF;
+}
+.desc-text-item{
+font-family: var(--main-font);  
+font-weight: 400;
+font-size: 18px;
+line-height: 1.39;
+
+/* Основной текст */
+color: #333333;
+}
